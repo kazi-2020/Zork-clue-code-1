@@ -1,0 +1,83 @@
+ 
+
+
+      # def movedown(pos,x):
+       
+    #     if x>=0 and x<len(Board.board)-1:    
+    #         if Board.board[x+1][y]==" ":
+    #             x=x+2
+    #             pos=Board.board[x][y]
+    #             print("Player is standing in ", pos,".")
+    #             #print(x)
+    #         elif Board.board[x+1][y]=="d":
+    #             choice=input("Do you chose to open the door?y or n :-")
+    #             if choice=="y":
+    #                     x=x+2
+    #                     pos= Board.board[x][y]
+    #                     print("Player is standing in ", pos,".")
+                
+    #             elif choice=="n":
+                        
+    #                     print("Player is standing in the same place ", pos,".")
+                
+    #             else:
+    #                     print("Invalid input.")
+            
+    #         else:
+    #             print("There is a wall.")
+            
+    #     else:
+    #         print("Player is standing at boundary.")  
+
+    #     def movement(pos,x,y):
+    #         moveto = (input("Which way do you want to move:- "))
+            
+    #         if moveto == "mr" :
+                    
+    #             moveright(pos,y)
+    #             current_room(restrictions.pos)      
+    #         elif moveto == "ml" :
+                    
+    #             moveleft(pos,y)
+    #             current_room(restrictions.pos) 
+    #         elif moveto == "mu" :
+    #             moveup()     
+    #             current_room(restrictions.pos)     
+            
+    #         elif moveto == "md" :
+    #             movedown()  
+    #             current_room(restrictions.pos)    
+    #         else:
+    #             print("invalid move")
+
+    def moveup(self, player):
+        print('player is moving up one position...')
+        player.y += 1
+        
+    #     if  x<=len(Board.board)-1 and x>0:    
+    #         if Board.board[x-1][y]==" ":
+    #             x=x-2
+    #             pos=Board.board[x][y]
+    #             print("Player is standing in ", pos,".")
+    #             #print(x)
+            
+    #         elif Board.board[x-1][y]=="d":
+            
+    #             choice=input("Do you chose to open the door?y or n :-")
+    #             if choice=="y":
+    #                     x=x-2
+    #                     pos= Board.board[x][y]
+    #                     print("Player is standing in ", pos,".")
+    #             elif choice=="n":
+    #                     print("Player is standing in the same place ", pos,".")
+    #             else:
+    #                     print("Invalid input.")
+            
+    #         else:
+    #             print("There is a wall.")
+        
+    #     else:
+    #         print("Player is standing at boundary.") 
+        
+
+  
